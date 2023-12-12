@@ -1,0 +1,61 @@
+.uno {
+  font-size: 1.5em;
+  line-height: 200%;
+  font-weight: bold;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dos {
+  background-color: #000;
+  background-image: url(image.gif);
+  background-repeat: no-repeat;
+  background-position: top left;
+} 
+
+.tres {
+  list-style-type: circle;
+  list-style-position: inside;
+  list-style-image: url(bullet.gif);
+} 
+
+.cuatro {
+  border-width: 2px;
+  border-style: solid;
+  border-color:black;
+} 
+
+.cinco {
+  margin-top: 1em;
+  margin-right: 0.5em;
+  margin-bottom: 2em;
+  margin-left: 2.5em;
+} 
+
+.seis {
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+} 
+
+.siete {
+  margin-top: 1em;
+  margin-right: 2em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+} 
+
+.ocho {
+  margin-top: 1.5em;
+  margin-right: 1.5em;
+  margin-bottom: 1.5em;
+  margin-left: 0.5em;
+} 
+
+.nueve {
+  margin-top: 1.5em;
+  margin-right: 0.5em;
+  margin-bottom: 1em;
+  margin-left: 0.5em;
+} 

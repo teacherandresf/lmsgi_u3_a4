@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pseudo-clases</title>
+</head>
+<body>
+  <!-- TODO: Todos lo que no sea un h1 debe tener el color de fuente #336699 -->
+  <h1>Pseudo-clases</h1>
+  <a href="#">Este enlace cuando se pasa por encima es rojo, cuando se clica se debe poner azul, cuando se ha clicado debe estar en lila y cuando está en reposo es rosa.</a>
+  
+  <p>Este texto debe ser azul.</p>
+  <p>Este textno no tiene estilo.</p>
+
+  <div> <!-- TODO: Cuando se pasa el cursor por encima del div debe mostrar un borde nego. -->
+    <p>Este texto debe ser azul.</p>
+    <p>Este textno no tiene estilo.</p>
+  </div>
+  
+  <p>Esto es <i>texto color rojo </i> dentro de un párrafo. Este <i>texto no aplica color</i>.</p>
+  <p>Esto es <i>texto color rojo </i> dentro de un párrafo. Este <i>texto no aplica color</i>.</p>
+  
+  <!-- TODO: Establecer el fondo celeste (ligthblue) a los elementos del formulario cuando tengan el foco (clicked or active) -->
+  <form action="/action_page.php" method="get">
+    Nombre:</label><input type="text" name="fname"><br>
+    Apellido:</label><input type="text" name="lname"><br>
+  
+    <!-- TODO: El input que está seleccionado por defecto tiene que mostrarse con un borde color coral y su label asociado también. -->
+    <input type="radio" name="season" id="spring">
+    <label for="spring">Primavera</label>
+    <input type="radio" name="season" id="summer" checked>
+    <label for="summer">Verano</label>
+    <input type="radio" name="season" id="fall">
+    <label for="fall">Otoño</label>
+    <input type="radio" name="season" id="winter">
+    <label for="winter">Invierno</label>
+     
+    <!-- TODO: El input se debe mostrar con un borde verde siempre que el valor introducido esté dentro del rango. -->
+    <input type="number" min="5" max="10" value="7">
+
+    <!-- TODO: El input se debe mostrar con un borde rojo siempre que el valor introducido no sea un email válido. -->
+    <input type="email" value="EjemploNoValido">
+
+    <input type="submit" value="Submit">
+  </form>
+  
+  <p class="highlight">Este párrafo debe resaltarse con fondo amarillo cuando se pasa el cursor sobre él.</p>
+</body>
+</html>
