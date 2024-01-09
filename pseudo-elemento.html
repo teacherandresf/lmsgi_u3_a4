@@ -6,6 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Pseudoelementos</title>
     <style>
+
+
+      .capital::first-letter{
+        color: red;
+        font-size: xx-large;
+      }
+
+      .capital + p::first-line {
+        font-weight: bold;
+      }
+
+      h1::after {
+        content: "-   ";
+      }
+      h2::before {
+        content: "*";
+      }
+      body ::selection {
+        color: red;
+        background-color: yellow;
+      }
+
+      li::marker{
+        color: red;
+      }
  
     </style>
   </head>
